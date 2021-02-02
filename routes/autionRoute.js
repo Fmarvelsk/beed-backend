@@ -5,7 +5,7 @@ const auctionRoute = express.Router()
 
 
 auctionRoute.get('/', async (req, res, next) => {
-    res.send('Working')
+    res.send('Welcome to beed-auction')
 })
 auctionRoute.post('/sendAuction', async (req, res, next) => {
     try {
